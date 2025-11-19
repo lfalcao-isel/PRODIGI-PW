@@ -138,10 +138,11 @@ A função `operation` recebe dois argumentos: o acumulador (`accumulator`) e o 
 A cada iteração, retorna o próximo valor do acumulador. O resultado final é o valor acumulado.
 
 Exemplo:
+```javascript
     const numbers = [1, 2, 3, 4];
     const sum = reduce(numbers, (acc, n) => acc + n, 0);
     // sum: 10
-
+```
 
 ## 2. Modularity and Testing
 
