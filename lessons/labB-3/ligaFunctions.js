@@ -25,10 +25,10 @@ async function readAndFilter()  {
 async function saveResult(filteredTeams) {
     
 }
-
 async function main() {
     const teamsWithMore10goals = await readAndFilter()
     console.log(teamsWithMore10goals)
+    saveResult(teamsWithMore10goals)
 }
 
 main()
