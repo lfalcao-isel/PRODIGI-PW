@@ -212,7 +212,9 @@ npm install express
 
 3. There is a **partial implementation file** (`shooping-web-api.mjs`) provided at the following link:
 
-[Partial implementation - shooping-web-api.mjs](https://github.com/lfalcao-isel/prodigi-pw/blob/main/exercises/shooping-web-api.mjs)
+[Partial implementation - shooping-web-api.mjs](https://github.com/lfalcao-isel/prodigi-pw/blob/main/exercises/shooping-web-pi.mjs)
+
+There is a simple express demo [here](https://github.com/lfalcao-isel/prodigi-pw/tree/main/exercises/demo-express)
 
 Students **only need to complete the parts marked with numbered comments** in the file.
 
