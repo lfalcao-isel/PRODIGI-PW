@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: Arial, sans-serif; }
+            header { background: #333; color: white; padding: 20px; }
+            .container { display: flex; max-width: 1200px; gap: 20px; }
+            main { flex: 3; }
+            aside { flex: 1; background: #f4f4f4; }
+
+            @media (max-width: 768px) {
+                .container { 
+                    flex-direction: column; 
+                }
+                body {
+                    background-color: red;
+                }
+            }
+
+            @media (max-width: 480px) {
+                header { font-size: 20px; }
+            }
+        </style>
+    </head>
+    <body>
+        <header>Meu Site Responsivo</header>
+        <nav>Início | Sobre | Contacto</nav>
+        <div class="container">
+        <main>Conteúdo Principal</main>
+        <aside>Sidebar</aside>
+        </div>
+        <footer>© 2025</footer>
+    </body>
+</html>
