@@ -1,0 +1,18 @@
+{
+  "name": "shopping-list-app",
+  "version": "1.0.0",
+  "description": "Multi-user shopping list management system with Node.js and Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["shopping", "list", "express", "node"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
