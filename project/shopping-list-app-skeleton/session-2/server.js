@@ -24,6 +24,9 @@ app.get('/lists/create', basicAuthMiddleware, handlers.handleGetCreateList);
 app.get('/lists/:id', basicAuthMiddleware, handlers.handleGetList);
 app.get('/lists/:id/items/create', basicAuthMiddleware, handlers.handleGetAddItem);
 
+//TODO: Add POST /lists/create route
+//app.post( TODO ,basicAuthMiddleware, TODO);
+
 // Start server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);

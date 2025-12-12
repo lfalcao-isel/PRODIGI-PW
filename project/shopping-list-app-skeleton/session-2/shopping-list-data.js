@@ -97,7 +97,7 @@ async function createList(userId, name) {
         name,
         items: []
     };
-    
+    console.log("data.createList = ",newList)
     userLists[userId].push(newList);
     return Promise.resolve(newList);
 }

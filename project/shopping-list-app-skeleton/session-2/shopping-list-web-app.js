@@ -64,11 +64,24 @@ function getFavorites(lists, maxFavorites) {
     throw new Error('getFavorites not implemented');
 }
 
+// POST /lists/create
+async function handleCreateList(req, res) {
+    try {
+        const { name } = req.body;
+        await shoppingListServices.createNewList(req.user.id, name);
+        res.redirect('/lists');
+    } catch (err) {
+        res.status(400).render('error', { message: err.message, status: 400 });
+    }
+}
+
+
 export {
     handleGetHome,
     handleGetLists,
     handleGetList,
     handleGetCreateList,
     handleGetAddItem,
-    getFavorites
+    getFavorites,
+    handleCreateList
 };
