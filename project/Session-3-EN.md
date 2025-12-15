@@ -104,7 +104,9 @@ By the end of this session, you should have:
 
 ## Student Tasks
 
-In this session, students must complete the following tasks (similar to Session 2):
+In this session, students must complete the following tasks (similar to Session 2).
+
+**⚠️ IMPORTANT**: Before performing any task, read the steps to follow in the [README](./shopping-list-app-skeleton/session-3/README-EN.md).
 
 ### Task 1: Register route for creating list
 

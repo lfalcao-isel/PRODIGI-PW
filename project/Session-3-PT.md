@@ -101,9 +101,11 @@ No final desta sessão, deverá ter:
   - A quantidade deve ser um número inteiro positivo
   - Mensagens de erro claras para o utilizador
 
-## Student Tasks
+## Tarefas para os Alunos
 
-Nesta sessão, os alunos devem completar as seguintes tarefas (à semelhança da Session 2):
+Nesta sessão, os alunos devem completar as seguintes tarefas (à semelhança da Session 2).
+
+**⚠️ IMPORTANTE**: Antes de realizar qualquer, leia os passos a realizar no [README](./shopping-list-app-skeleton/session-3/README-PT.md).
 
 ### Tarefa 1: Registar rota para criar lista
 

@@ -133,7 +133,7 @@ shopping-list-app/
   - Usar sintaxe `{{../variable}}` quando necessário para contexto
 - **Nota:** O template `list-detail.hbs` inclui a tabela de itens E o formulário de adicionar item na mesma página (não existe `add_item.hbs` separado)
 
-## Tarefas para Alunos
+## Tarefas para os Alunos
 
 O código base (skeleton) tem várias implementações incompletas que devem ser corrigidas:
 
